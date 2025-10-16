@@ -1,0 +1,435 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+ }
+body{
+    background-color: #FBF8F1;
+    line-height: 1.7;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    scroll-behavior: smooth;
+}
+/* hi wassim */
+footer{
+text-align: center;
+background-color: #F7ECDE;
+unicode-bidi: isolate;
+width: 100%;
+height: 228px;
+justify-content: center;
+align-items: center;
+display: flex;
+flex-direction: column;
+margin-top: 100px;
+}
+
+footer p{
+    color: #CAAF8D;
+}
+
+header{
+    margin-top: 0px;
+    position: fixed;
+    overflow: hidden;
+    font-size: 20px;
+    left: 0;
+    right: 0;
+    padding: 15px 60px;
+    z-index: 999;
+    border-bottom: 1px;
+    background-color: #F7ECDE;
+    width: 100%;
+    gap: 10px;
+    top: 0;
+    
+    
+}
+nav{
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+header h1{
+    text-shadow: 0 2px 3px gray;
+    font-weight: lighter;
+}
+
+.main{
+    margin-top: 100px;
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main h1{
+    width: 250px;
+}
+/* hi bilal */
+
+.cercle-main{
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+}
+.searching{
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    max-width: 605px;
+    border: 3px solid black;
+    border-radius: 170px;
+    margin-top: 30px;
+    
+}
+@keyframes sear{
+    0%{right:100px }
+    100%{right:0px}
+}
+.th{
+    background-color: #FBF8F1;
+    height: 75px;
+    border: none;
+    outline: none;
+    max-width: 500px;
+    padding: 20px;
+    border-radius: 170px;
+    font-size: 20px;
+}
+a{
+    cursor: pointer;
+    margin-right:10px;
+    text-decoration: none;
+    color: gray;
+}
+#butsearch{
+    background-color: #54BAB9;
+    max-width: 180px;
+    width: 180px;
+    height: 80px;
+    border-radius: 170px;
+}
+
+
+.title{
+    font-size: 20px;
+}
+.writer{
+    color: grey;
+}
+#recent{
+    position: relative;
+    display: flex;
+    left: 240px;
+    max-width: 200px;
+}
+#firstrow{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin: 30px;
+    flex-direction: row;
+    animation-name: animated;
+    animation-duration: 1s;
+
+}
+#secondrow{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 70px;
+    margin: 30px;
+    animation-name: animated;
+    animation-duration: 1s;
+}
+#thirdrow{
+    position: relative;
+    display: flex;
+    gap: 70px;
+    margin: 30px;
+    justify-content: center;
+    animation-name: animated;
+    animation-duration: 1s;
+}
+#fourthrow{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+    animation-name: animated;
+    animation-duration: 1s;
+}
+.Gallery{
+    margin-top: 70px;
+}
+#all{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#book{
+    border: 3px solid black;
+    align-items: center;
+    max-width: 250px;
+    display: flex;
+    justify-content: center;
+    border-radius: 20px;
+    height: 60px;
+}
+.all{
+    color: black;
+}
+#review{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 130px;
+    max-width: 1240px;
+    animation-name: sear;
+    animation-duration: 2s;
+}
+#review h3{
+    font-size: 30px;
+}
+.book{
+    cursor: pointer;
+}
+.book:hover{
+    box-shadow: 10px 10px black;
+}
+#S{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 70px;
+    gap: 80px;
+}
+.Mimir{
+    color: black;
+}
+.bookoftheweek{
+    display:flex;
+    position: relative;
+    justify-content:center;
+}
+
+.formm{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 150px;
+    
+}
+#for{
+    max-width: 800px;
+    width: 500px;
+    background-color: #F9F2E7;
+    height: 700px;
+    box-shadow:10px 10px #54BAB9;
+    border-radius: 20px;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    animation-name: animated;
+    animation-duration: 1s;
+ }
+ @keyframes animated{
+    0%{top : 30px  ; filter: blur(8px);}
+    100%{top : 0px ; filter: blur(0px);}
+ }
+ form{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ .email{
+    margin-bottom:50px ;
+    background-color: white;
+    max-width: 300px;
+    width: 250px;
+    height:40px ;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+ }
+ .name{
+    margin-bottom:50px ;
+    background-color: white;
+    max-width: 300px;
+    width: 250px;
+    height:40px ;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+ }
+ .op{
+    margin-bottom: 50px;
+    background-color: white;
+    max-width: 300px;
+    width: 250px;
+    height:40px ;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+ }
+ .number{
+    margin-bottom:50px ;
+    background-color: white;
+    max-width: 300px;
+    width: 250px;
+    height:40px ;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+ }
+ input[type=submit]{
+    background-color: #54BAB9;
+    max-width: 100px;
+    width: 99px;
+    height:40px ;
+    border-radius: 30px;
+    border: none;
+ }
+ .password{
+    margin-bottom:50px ;
+    background-color: white;
+    max-width: 300px;
+    width: 250px;
+    height:40px ;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+ }
+ .passwords{
+    margin-bottom:50px ;
+    background-color: white;
+    max-width: 300px;
+    width: 250px;
+    height:40px ;
+    border-radius: 50px;
+    padding: 10px;
+    border: none;
+    outline: none;
+ }
+ .hi{
+    margin-bottom:50px ;
+ }
+ #profileSection{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin-top: 300px;
+    animation-name: animated;
+    animation-duration: 1s;
+ }
+ 
+ .profile{
+    display: flex;
+    gap: 100px;
+    border-radius: 20px;
+    max-width: 800px;
+    width: 700px;
+    background-color: #F9F2E7;
+    box-shadow: 10px 10px #54BAB9;
+    margin-bottom: 60px;
+    
+ }
+
+ #filter{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .catergory{
+    background-color: black;
+    width: 270px;
+    text-align: center;
+   
+ }
+
+ .catergory a{
+    color: white;
+    background-color: black;
+    padding: 5px;
+    border-radius: 5px;
+ }
+ 
+.catergory a:hover{
+    color: black;
+    background-color: white;
+    animation-name: border;
+    animation-duration: 1s;
+}
+@keyframes border{
+    0%{border-radius: 0px;}
+    100%{border-radius: 5px;}
+}
+@media (max-width:900px){
+header{
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+    top: 0;
+}
+    #firstrow, #secondrow, #thirdrow, #fourthrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+
+#recent{
+    left: 0;
+    text-align: 0;
+    justify-content: center;
+}
+#review{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+    width:100%
+}
+.book svg{
+    width: 150px;
+    height: 220px;
+}
+#review svg{
+    width: 489px;
+    height: 300px;
+}
+footer{
+    padding: 20px;
+}
+ #butsearch {
+    width: 130px;
+    height: 80px;
+}
+#profile svg{
+    width: 370px;
+}
+#for{
+    width: 330px;
+}
+.email, .name, .op, .password, .passwords{
+    width: 250px;
+}
+input[type=submit]{
+    width: 100px;
+}
+}
